@@ -7,6 +7,7 @@ CryptoLabX is a modular cryptography toolkit developed as part of the Cryptanaly
 ## Team Members
 
 - Chimmula Srinidhi (2024UCP1394)
+- Chitresh Sharma (2024UCP1363)
 
 ## Project Structure
 
