@@ -1,4 +1,4 @@
-from .shift_cipher import decrypt
+from shift_cipher import decrypt
 
 
 def load_dictionary(filename):
@@ -29,18 +29,34 @@ def score_text(text, dictionary):
 
 
 def dictionary_attack(ciphertext, dictionary):
+
+    results = []
+
     best_key = None
     best_plaintext = None
     best_score = -1
 
     for key in range(26):
+
         plaintext = decrypt(ciphertext, key)
 
         score = score_text(plaintext, dictionary)
+
+        results.append({
+            "key": key,
+            "score": score,
+            "plaintext": plaintext
+        })
 
         if score > best_score:
             best_score = score
             best_key = key
             best_plaintext = plaintext
 
-    return best_key, best_plaintext, best_score
+    best = {
+        "key": best_key,
+        "score": best_score,
+        "plaintext": best_plaintext
+    }
+
+    return best, results
