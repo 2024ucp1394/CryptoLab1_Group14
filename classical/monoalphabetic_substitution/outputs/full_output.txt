@@ -1,0 +1,111 @@
+
+========== CIPHERTEXT ==========
+wmncge sgznlyjcbg bn wsznlyjcbg. Udbk jdqj ysnxszj usznszl (qu cg Wsxcgcjcbg 2.1) zqg as qzdcsisw kcjd |F| < |T| kdsg j >= 1. Zqg lbm ynbis q vbksn abmgw bg jds nshmcnsw ucps bx F?
+
+2.13 Ynbis qg qgqvbems bx Jdsbnst 2.7 xbn jds zqus bx qvtbuj ysnxszj usznszl. Jdqj cu, vsj syucvbg < 1 as q zbgujqgj qgw uql ks bgvl nshmcns jdqj xbn qgl wcujncamjcbg bisn T, qgl t cg T, qgw qgl z cg Z,
+
+|Yn[T = t | Z = z] - Yn[T = t]| < syucvbg.
+
+Ynbis q vbksn abmgw bg jds ucps bx jds fsl uyqzs F nsvqjcis jb T xbn qgl sgznlyjcbg uzdsts jdqj tssju jdcu wsxcgcjcbg.
+
+Dcgj: Zbgucwsn jds mgcxbnt wcujncamjcbg bisn T qgw xco q zcydsnjsoj z. Jdsg udbk jdqj xbn q (1 - syucvbg) xnqzjcbg bx jds tsuuqesu t cg T, jdsns tmuj socuj q fsl tqyycge t jb z.
+
+
+LETTER FREQUENCY
+----------------------------
+s : 64 (12.2605%)
+j : 47 (9.00383%)
+b : 44 (8.42912%)
+g : 44 (8.42912%)
+c : 40 (7.66284%)
+n : 35 (6.70498%)
+q : 34 (6.51341%)
+u : 27 (5.17241%)
+z : 25 (4.78927%)
+d : 23 (4.40613%)
+t : 21 (4.02299%)
+y : 17 (3.2567%)
+x : 16 (3.06513%)
+l : 14 (2.68199%)
+w : 14 (2.68199%)
+m : 11 (2.10728%)
+v : 10 (1.91571%)
+i : 7 (1.341%)
+k : 7 (1.341%)
+a : 6 (1.14943%)
+f : 5 (0.957854%)
+e : 4 (0.766284%)
+o : 3 (0.574713%)
+h : 2 (0.383142%)
+p : 2 (0.383142%)
+
+Total letters = 522
+
+WORD FREQUENCY
+----------------------------
+t : 13
+q : 6
+jds : 6
+z : 6
+bx : 5
+jdqj : 5
+qgl : 4
+xbn : 4
+cg : 4
+qgw : 3
+syucvbg : 3
+ynbis : 3
+f : 3
+jb : 2
+as : 2
+vbksn : 2
+bg : 2
+usznszl : 2
+wcujncamjcbg : 2
+wsxcgcjcbg : 2
+
+PATTERN ANALYSIS
+----------------------------
+Pattern 01 : 22 words
+Pattern 01023456 : 1 words
+Pattern 01123 : 1 words
+Pattern 012 : 25 words
+Pattern 0120 : 5 words
+Pattern 01223412 : 1 words
+Pattern 0122345 : 1 words
+Pattern 0123 : 14 words
+Pattern 0123124 : 2 words
+Pattern 0123145 : 2 words
+Pattern 01232 : 1 words
+Pattern 01234 : 9 words
+Pattern 0123401 : 1 words
+Pattern 01234015 : 1 words
+Pattern 012341563178 : 2 words
+Pattern 0123425 : 1 words
+Pattern 012343 : 1 words
+Pattern 0123435364 : 2 words
+Pattern 012345 : 2 words
+Pattern 01234524 : 1 words
+Pattern 01234546 : 1 words
+Pattern 0123456 : 4 words
+Pattern 01234561 : 1 words
+Pattern 0123456476 : 1 words
+Pattern 01234567 : 2 words
+Pattern 0123456781 : 2 words
+Pattern 0123456789 : 1 words
+
+PARTIAL PLAINTEXT
+----------------------------
+during encryption or decryption. Show that perfect secrecy (as in Definition 2.1) can be achieved with |K| < |M| when t >= 1. Can you prove a lower bound on the required size of K?
+
+2.13 Prove an analogue of Theorem 2.7 for the case of almost perfect secrecy. That is, let epsilon < 1 be a constant and say we only require that for any distribution over M, any m in M, and any c in C,
+
+|Pr[M = m | C = c] - Pr[M = m]| < epsilon.
+
+Prove a lower bound on the size of the key space K relative to M for any encryption scheme that meets this definition.
+
+Hint: Consider the uniform distribution over M and fix a ciphertext c. Then show that for a (1 - epsilon) fraction of the messages m in M, there must exist a key mapping m to c.
+
+
+Verification successful!
+Recovered key is correct.

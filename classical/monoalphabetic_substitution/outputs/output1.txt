@@ -1,0 +1,34 @@
+
+========== CIPHERTEXT ==========
+DSVVB KBNVW
+
+
+LETTER FREQUENCY
+----------------------------
+v : 3 (30%)
+b : 2 (20%)
+d : 1 (10%)
+k : 1 (10%)
+n : 1 (10%)
+s : 1 (10%)
+w : 1 (10%)
+
+Total letters = 10
+
+WORD FREQUENCY
+----------------------------
+dsvvb : 1
+kbnvw : 1
+
+PATTERN ANALYSIS
+----------------------------
+Pattern 01223 : 1 words
+Pattern 01234 : 1 words
+
+PARTIAL PLAINTEXT
+----------------------------
+HELLO WORLD
+
+
+Verification successful!
+Recovered key is correct.

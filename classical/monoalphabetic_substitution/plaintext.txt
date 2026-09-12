@@ -1,0 +1,9 @@
+during encryption or decryption. Show that perfect secrecy (as in Definition 2.1) can be achieved with |K| < |M| when t >= 1. Can you prove a lower bound on the required size of K?
+
+2.13 Prove an analogue of Theorem 2.7 for the case of almost perfect secrecy. That is, let epsilon < 1 be a constant and say we only require that for any distribution over M, any m in M, and any c in C,
+
+|Pr[M = m | C = c] - Pr[M = m]| < epsilon.
+
+Prove a lower bound on the size of the key space K relative to M for any encryption scheme that meets this definition.
+
+Hint: Consider the uniform distribution over M and fix a ciphertext c. Then show that for a (1 - epsilon) fraction of the messages m in M, there must exist a key mapping m to c.

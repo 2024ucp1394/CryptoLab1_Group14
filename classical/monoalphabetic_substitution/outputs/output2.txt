@@ -1,0 +1,42 @@
+
+========== CIPHERTEXT ==========
+JDCU CU Q USZNSJ TSUUQES
+
+
+LETTER FREQUENCY
+----------------------------
+u : 5 (25%)
+s : 4 (20%)
+c : 2 (10%)
+j : 2 (10%)
+q : 2 (10%)
+d : 1 (5%)
+e : 1 (5%)
+n : 1 (5%)
+t : 1 (5%)
+z : 1 (5%)
+
+Total letters = 20
+
+WORD FREQUENCY
+----------------------------
+cu : 1
+jdcu : 1
+q : 1
+tsuuqes : 1
+usznsj : 1
+
+PATTERN ANALYSIS
+----------------------------
+Pattern 01 : 1 words
+Pattern 0122341 : 1 words
+Pattern 0123 : 1 words
+Pattern 012314 : 1 words
+
+PARTIAL PLAINTEXT
+----------------------------
+THIS IS A SECRET MESSAGE
+
+
+Verification successful!
+Recovered key is correct.
