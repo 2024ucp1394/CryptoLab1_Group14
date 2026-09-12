@@ -3,7 +3,7 @@
 from shift_cipher import encrypt
 from brute_force_dictionary import (
     load_dictionary,
-    brute_force_dictionary
+    dictionary_attack
 )
 from chi_square_attack import chi_square_attack
 
@@ -88,7 +88,7 @@ def main():
 
     # Dictionary attack
     dictionary_best, dictionary_results = (
-        brute_force_dictionary(
+        dictionary_attack(
             ciphertext,
             dictionary
         )
