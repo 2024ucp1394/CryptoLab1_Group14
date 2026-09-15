@@ -1,0 +1,151 @@
+=====================================
+ VIGENERE CIPHER CRYPTANALYSIS
+ GROUP NUMBER: 14
+=====================================
+
+Ciphertext length: 758
+
+========== KASISKI ANALYSIS ==========
+
+Repeated patterns:
+AEL : 297 619 
+AEP : 356 524 
+AIK : 93 393 
+AMF : 573 579 
+BEL : 199 247 
+DDE : 557 701 
+DFW : 389 569 
+EGX : 20 140 
+ELS : 44 728 
+FBE : 198 246 
+FWT : 390 570 
+GOT : 263 419 
+GPX : 109 385 
+GWI : 281 509 
+GWW : 514 553 
+HPR : 195 243 
+HXZ : 333 717 
+HZL : 687 745 
+IEG : 62 283 
+ILA : 173 629 
+ILB : 10 226 
+KHP : 194 242 
+KIL : 9 225 
+KMA : 534 594 
+LAE : 174 618 
+LBN : 227 647 
+LBR : 11 278 
+LFM : 137 149 
+LVB : 168 408 
+MAE : 355 523 
+MEL : 43 486 
+MFS : 52 364 
+MHX : 31 151 
+MLW : 189 477 561 
+MXR : 267 423 
+NNB : 396 649 
+NUM : 120 300 
+NVW : 217 253 349 457 
+OTP : 264 420 
+PMX : 266 422 
+PRF : 196 244 
+RFB : 197 245 
+RTX : 269 425 
+RXW : 68 677 
+SIL : 172 628 
+SML : 476 730 
+TAI : 92 392 
+THX : 332 428 
+TPM : 265 421 
+TXT : 378 405 426 
+UAL : 276 444 612 
+WHG : 287 383 
+WIE : 282 510 
+WNV : 134 722 
+WTA : 391 571 
+WWS : 40 554 
+XRT : 268 424 
+XTH : 331 427 
+XZY : 334 718 
+YGW : 433 508 
+YNV : 252 456 
+
+Factors:
+Key Length 2 -> 63 times
+Key Length 3 -> 65 times
+Key Length 4 -> 58 times
+Key Length 5 -> 13 times
+Key Length 6 -> 59 times
+Key Length 7 -> 11 times
+Key Length 8 -> 29 times
+Key Length 9 -> 12 times
+Key Length 10 -> 12 times
+Key Length 11 -> 2 times
+Key Length 12 -> 58 times
+Key Length 13 -> 10 times
+Key Length 14 -> 9 times
+Key Length 15 -> 13 times
+Key Length 16 -> 18 times
+Key Length 17 -> 3 times
+Key Length 18 -> 11 times
+Key Length 19 -> 5 times
+Key Length 20 -> 12 times
+
+Kasiski suggested length: 3
+Using strongest expected candidate: 12
+
+Estimated Key Length = 12
+
+========== BONUS: IC ==========
+Overall IC = 0.0438
+
+Number of groups = 12
+
+========== FREQUENCY ANALYSIS ==========
+
+Group 1:
+A=1  B=4  C=1  D=0  E=0  F=3  G=2  H=3  I=6  J=1  K=0  L=4  M=2  N=4  O=3  P=1  Q=1  R=0  S=1  T=0  U=6  V=0  W=4  X=3  Y=13  Z=1  
+
+Group 2:
+A=8  B=2  C=3  D=0  E=4  F=2  G=6  H=1  I=0  J=0  K=0  L=0  M=0  N=10  O=1  P=1  Q=1  R=8  S=2  T=3  U=4  V=3  W=0  X=0  Y=3  Z=2  
+
+Group 3:
+A=3  B=8  C=1  D=1  E=1  F=0  G=2  H=0  I=4  J=0  K=6  L=5  M=6  N=1  O=1  P=4  Q=2  R=0  S=0  T=1  U=1  V=5  W=5  X=0  Y=0  Z=6  
+
+Group 4:
+A=2  B=6  C=0  D=0  E=2  F=0  G=3  H=8  I=0  J=0  K=4  L=2  M=11  N=2  O=1  P=0  Q=0  R=2  S=0  T=1  U=0  V=0  W=8  X=9  Y=2  Z=0  
+
+Group 5:
+A=1  B=0  C=0  D=0  E=5  F=0  G=1  H=2  I=3  J=1  K=0  L=2  M=6  N=0  O=0  P=4  Q=4  R=4  S=9  T=2  U=0  V=5  W=4  X=7  Y=2  Z=1  
+
+Group 6:
+A=0  B=1  C=0  D=7  E=2  F=5  G=2  H=6  I=5  J=1  K=2  L=4  M=0  N=0  O=2  P=2  Q=4  R=9  S=0  T=0  U=5  V=1  W=4  X=1  Y=0  Z=0  
+
+Group 7:
+A=4  B=1  C=0  D=3  E=1  F=8  G=0  H=1  I=0  J=4  K=5  L=7  M=1  N=1  O=0  P=0  Q=1  R=0  S=5  T=3  U=3  V=2  W=9  X=2  Y=1  Z=1  
+
+Group 8:
+A=4  B=6  C=0  D=0  E=6  F=0  G=0  H=4  I=3  J=0  K=2  L=3  M=8  N=2  O=1  P=0  Q=0  R=1  S=0  T=4  U=0  V=1  W=3  X=12  Y=1  Z=2  
+
+Group 9:
+A=6  B=2  C=3  D=4  E=11  F=2  G=1  H=4  I=2  J=0  K=0  L=4  M=0  N=4  O=2  P=1  Q=0  R=2  S=3  T=8  U=2  V=0  W=1  X=0  Y=1  Z=0  
+
+Group 10:
+A=6  B=1  C=0  D=0  E=4  F=0  G=5  H=5  I=2  J=0  K=4  L=7  M=6  N=1  O=2  P=2  Q=0  R=0  S=0  T=5  U=1  V=1  W=1  X=5  Y=2  Z=3  
+
+Group 11:
+A=0  B=0  C=0  D=0  E=5  F=0  G=1  H=5  I=12  J=0  K=0  L=4  M=5  N=0  O=0  P=4  Q=0  R=4  S=8  T=1  U=0  V=2  W=2  X=8  Y=2  Z=0  
+
+Group 12:
+A=3  B=0  C=0  D=2  E=0  F=8  G=7  H=4  I=0  J=2  K=5  L=5  M=1  N=0  O=3  P=0  Q=0  R=0  S=3  T=1  U=1  V=3  W=12  X=1  Y=0  Z=2  
+
+========== KEY ==========
+Recovered Key = UNITEDSTATES
+
+========== PLAINTEXT ==========
+WETHEREFORETHEREPRESENTATIVESOFTHEUNITEDSTATESOFAMERICAINGENERALCONGRESSASSEMBLEDAPPEALINGTOTHESUPREMEJUDGEOFTHEWORLDFORTHERECTITUDEOFOURINTENTIONSDOINTHENAMEANDBYAUTHORITYOFTHEGOODPEOPLEOFTHESECOLONIESSOLEMNLYPUBLISHANDDECLARETHATTHESEUNITEDCOLONIESAREANDOFRIGHTOUGHTTOBEFREEANDINDEPENDENTSTATESTHATTHEYAREABSOLVEDFROMALLALLEGIANCETOTHEBRITISHCROWNANDTHATALLPOLITICALCONNECTIONBETWEENTHEMANDTHESTATEOFGREATBRITAINISANDOUGHTTOBETOTALLYDISSOLVEDANDTHATASFREEANDINDEPENDENTSTATESTHEYHAVEFULLPOWERTOLEVYWARCONCLUDEPEACECONTRACTALLIANCESESTABLISHCOMMERCEANDTODOALLOTHERACTSANDTHINGSWHICHINDEPENDENTSTATESMAYOFRIGHTDOANDFORTHESUPPORTOFTHISDECLARATIONWITHAFIRMRELIANCEONTHEPROTECTIONOFDIVINEPROVIDENCEWEMUTUALLYPLEDGETOEACHOTHEROURLIVESOURFORTUNESANDOURSACREDHONOR
+
+========== VERIFICATION ==========
+SUCCESS!
+Re-encrypted ciphertext matches the original ciphertext.
+
