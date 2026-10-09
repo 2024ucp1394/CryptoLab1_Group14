@@ -1,0 +1,11 @@
+Padding Oracle Attack - Results
+
+Recovered Plaintext:
+Hello, this is a padding oracle attack!
+
+Total Oracle Queries:
+6318
+
+Observation:
+The plaintext was recovered without accessing the AES key during the attack.
+The padding oracle responses helped recover plaintext bytes from right to left.
