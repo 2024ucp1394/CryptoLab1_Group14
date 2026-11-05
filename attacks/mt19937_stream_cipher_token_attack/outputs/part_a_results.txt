@@ -1,0 +1,10 @@
+PART A - MT19937 STREAM CIPHER
+
+Original Plaintext: N1vk5ljwwF9KxJJIh2AAAAAAAAAAAAAA
+Original Seed: 22554
+Ciphertext (Hex): c0e4563a69d6175d02bb9f95e940382ad1548f5b61ccefbc7c983fc12de8af3c
+Recovered Seed: 22554
+Decrypted Plaintext: N1vk5ljwwF9KxJJIh2AAAAAAAAAAAAAA
+Seed Correct: True
+Plaintext Verified: True
+Known Sequence Found: True

@@ -1,0 +1,13 @@
+PART B - PREDICTABLE PASSWORD RESET TOKEN
+
+Original Timestamp: 1793897681
+Generated Token: 472ce9ab6374d4fd1dd1a53f31f10847
+
+Search Start: 1793897381
+Search End: 1793897981
+Candidates Tested: 301
+
+Recovered Timestamp: 1793897681
+Regenerated Token: 472ce9ab6374d4fd1dd1a53f31f10847
+Token Verified: True
+Timestamp Correct: True
