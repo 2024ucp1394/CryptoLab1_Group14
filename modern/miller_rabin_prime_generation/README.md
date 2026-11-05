@@ -53,3 +53,10 @@ Execution Time: 0.11202415299999302 seconds
 1. Generated number has exactly 512 bits.
 2. Candidate passes all 20 Miller-Rabin rounds.
 3. Independent verification using SymPy returns True.
+
+## Experimental Observation
+
+The program generates a 512-bit probable prime using the Miller-Rabin
+primality test. Multiple rounds are performed to reduce the probability
+of accepting a composite number as prime. The generated number is also
+verified independently using SymPy.
