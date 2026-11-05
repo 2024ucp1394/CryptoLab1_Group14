@@ -49,12 +49,11 @@ Graphs are stored in:
 
 outputs/graphs/
 
-## Conclusion
+## Experimental Conclusion
 
-Statistical tests help identify unusual patterns
-in random data. However, passing statistical tests
-does not guarantee cryptographic security.
+The three random number sources were tested using byte frequency,
+bit distribution, repeated byte patterns, and serial correlation.
 
-Cryptographic security also requires unpredictability,
-secure entropy collection and protection of the
-internal generator state.
+The results help evaluate the statistical properties of the generated
+random data. However, passing statistical tests does not guarantee
+cryptographic security or unpredictability.
