@@ -151,6 +151,14 @@ For each timestamp from T-300 to T+300:
 
 Cryptographic applications should use secure random-number generators such as Python's `secrets` module or operating-system cryptographic random APIs.
 
-## Conclusion
+## Experimental Conclusion
 
-The MT19937 stream cipher and predictable token experiments demonstrate that a statistical PRNG is unsuitable for cryptographic applications. The known-plaintext attack successfully recovered a weak 16-bit seed, while timestamp-based token prediction demonstrated how predictable seeds can expose reset tokens. Therefore, cryptographic applications must use cryptographically secure random-number generators instead of ordinary statistical PRNGs.
+In Part A, the 16-bit seed of the MT19937-based stream cipher
+was recovered using known plaintext.
+
+In Part B, the timestamp used as the random seed was recovered
+by searching a limited time window.
+
+These experiments demonstrate why MT19937 should not be used
+for cryptographic applications. A cryptographically secure
+random number generator should be used instead.
